@@ -13,30 +13,32 @@
 </head>
 
 <body>
+
     <div class="container">
         <form id="form" action="/">
             <h1>Registration</h1>
-            <div class="input-control">
-                <label for="username">Username</label>
-                <input id="username" name="username" type="text">
-                <div class="error"></div>
-            </div>
-            <div class="input-control">
-                <label for="email">Email</label>
-                <input id="email" name="email" type="text">
-                <div class="error"></div>
-            </div>
-            <div class="input-control">
-                <label for="password">Password</label>
-                <input id="password" name="password" type="password">
-                <div class="error"></div>
-            </div>
-            <div class="input-control">
-                <label for="password2">Password again</label>
-                <input id="password2" name="password2" type="password">
-                <div class="error"></div>
-            </div>
             <form action="Makinat.php" method="POST">
+                <div class="input-control">
+                    <label for="username">Username</label>
+                    <input id="username" name="username" type="text">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="text">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="password">Password</label>
+                    <input id="password" name="password" type="password">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="password2">Password again</label>
+                    <input id="password2" name="password2" type="password">
+                    <div class="error"></div>
+                </div>
+
                 <button type="submit">Submit</button>
             </form>
         </form>
@@ -66,7 +68,7 @@
         margin-top: 10px;
         width: 100%;
         color: white;
-        background-color: rgb(41, 57, 194);
+        background-color: red;
         border: none;
         border-radius: 4px;
     }
