@@ -71,6 +71,7 @@ const email = document.getElementById('email');
 const password = document.getElementById('password');
 const password2 = document.getElementById('password2');
 
+
 form.addEventListener('submit', e => {
   e.preventDefault();
 
@@ -134,6 +135,23 @@ const validateInputs = () => {
     setError(password2, "Passwords doesn't match");
   } else {
     setSuccess(password2);
-  }
 
+  }
+  /*
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+  
+      validateInputs();
+  
+      const usernameValid = username.parentElement.classList.contains('success');
+      const emailValid = email.parentElement.classList.contains('success');
+      const passwordValid = password.parentElement.classList.contains('success');
+      const password2Valid = password2.parentElement.classList.contains('success');
+  
+      if (usernameValid && emailValid && passwordValid && password2Valid) {
+        window.location.href = 'Makinat.php';
+      }
+    });
+  */
 };
