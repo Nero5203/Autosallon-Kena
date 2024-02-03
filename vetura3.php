@@ -25,7 +25,7 @@
         padding: 20px;
         border-radius: 4px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        margin-top: -32%;
+        margin-top: -25%;
         margin-left: 50%;
     }
 
@@ -72,11 +72,11 @@
 
 <body>
     <div class="c1">
-        <img src="img/car2.jpg" alt="">
+        <img src="img/car3.jpg" alt="">
 
         <div class="cont">
 
-            <form action="Vetura2.php" method="post" class="vetura1">
+            <form action="vetura3.php" method="post" class="vetura1">
                 <div class="container">
                     <h1>Blije makinen tuaj te endrrave</h1>
                     <form action="order.php" method="post">
@@ -99,7 +99,7 @@
                         <?php
                         if (isset($_POST['Sasia'])) {
                             $item = "Makina";
-                            $price = 90000;
+                            $price = 146000;
                             $sasia = $_POST["Sasia"];
                             $total = null;
 
